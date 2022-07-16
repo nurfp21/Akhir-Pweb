@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	background-image: url(img/gambar.jpg);
+}
+.main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div-content h1 {
+	text-align: center;
+	margin-top: 0;
+}
+.div-box {
+	border: solid 1px;
+	width: 500px;
+	padding: 25px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+form div {
+	margin-bottom: 15px;
+}
+form input {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 1.8;
+}
